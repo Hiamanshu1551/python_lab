@@ -1,0 +1,11 @@
+t=()
+n=int(input("enter the range "))
+for i in range(n):
+    e=input()
+    t=t+(e,)
+print(t)
+listx=list(t)
+c=input("enter element to remove")
+listx.remove(c)
+t=tuple(listx)
+print(t)
